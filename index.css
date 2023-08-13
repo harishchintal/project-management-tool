@@ -1,0 +1,148 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(115, 92, 72);
+
+  }
+
+  .message {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  .user-message {
+    color: rgb(236, 213, 213);
+  }
+
+  .other-message {
+    color: black;
+  }
+
+  .message input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .message input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .user-details {
+    margin-bottom: 10px;
+  }
+
+  .user-details input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .started {
+    color: white;
+    font-weight: bold;
+    background: rgb(255, 253, 253);
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .container-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .completed {
+    color: white;
+    font-weight: bold;
+    background: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .card {
+    flex: 1;
+    border: 1px solid black;
+    background-position: right;
+    overflow-y: scroll;
+    border-radius: 12px;
+    padding: 50px;
+    margin-top: 40px;
+    margin-right: 20px;
+    max-width: 900px;
+    box-shadow: 0 4px 8px 0 rgba(223, 194, 194, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .table th {
+    background-color: #f2f2f2;
+  }
+
+  .modal-content {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .modal-header {
+    background-color: #f7f7f7;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .modal-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .form-control {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .form-control:focus {
+    border-color: #c9d6e4;
+    box-shadow: 0 0 0 0.2rem rgba(203, 207, 212, 0.25);
+  }
